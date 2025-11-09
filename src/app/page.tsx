@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -20,7 +20,7 @@ export default function Home() {
       borderRadius="soft"
       contentWidth="large"
       sizing="small"
-      background="wavyBackground"
+      background="circleGradient"
       cardStyle="glass-depth"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="glass"
